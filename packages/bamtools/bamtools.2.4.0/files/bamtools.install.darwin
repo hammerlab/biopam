@@ -1,0 +1,32 @@
+bin : [
+  "bin/bamtools"
+]
+
+lib : [
+  "lib/libbamtools.a"
+  "lib/libbamtools-utils.a"
+  "lib/libjsoncpp.a"
+  "lib/libbamtools.dylib"
+  "lib/libbamtools.2.4.0.dylib"
+
+  "include/shared/bamtools_global.h" {"include/shared/bamtools_global.h"}
+  "include/api/BamAlgorithms.h" {"include/api/BamAlgorithms.h"}
+  "include/api/BamMultiReader.h" {"include/api/BamMultiReader.h"}
+  "include/api/SamHeader.h" {"include/api/SamHeader.h"}
+  "include/api/SamSequence.h" {"include/api/SamSequence.h"}
+  "include/api/BamAlignment.h" {"include/api/BamAlignment.h"}
+  "include/api/BamReader.h" {"include/api/BamReader.h"}
+  "include/api/SamProgram.h" {"include/api/SamProgram.h"}
+  "include/api/SamSequenceDictionary.h" {"include/api/SamSequenceDictionary.h"}
+  "include/api/BamAux.h" {"include/api/BamAux.h"}
+  "include/api/BamWriter.h" {"include/api/BamWriter.h"}
+  "include/api/SamProgramChain.h" {"include/api/SamProgramChain.h"}
+  "include/api/api_global.h" {"include/api/api_global.h"}
+  "include/api/BamConstants.h" {"include/api/BamConstants.h"}
+  "include/api/IBamIODevice.h" {"include/api/IBamIODevice.h"}
+  "include/api/SamReadGroup.h" {"include/api/SamReadGroup.h"}
+  "include/api/BamIndex.h" {"include/api/BamIndex.h"}
+  "include/api/SamConstants.h" {"include/api/SamConstants.h"}
+  "include/api/SamReadGroupDictionary.h" {"include/api/SamReadGroupDictionary.h"}
+  "include/api/algorithms/Sort.h" {"include/api/algorithms/Sort.h"}
+]
