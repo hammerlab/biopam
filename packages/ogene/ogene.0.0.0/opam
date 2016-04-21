@@ -16,5 +16,5 @@ depends: [
   "cmdliner"
   "core"
   "alcotest"
-  "biocaml.unix"
+  "biocaml"
 ]
