@@ -45,7 +45,8 @@ to look for the package descriptions provided by `biopam` by doing:
 opam init -n --compiler=0.0.0 biopam https://github.com/solvuu/biopam.git
 ```
 
-That's it. Now you can start installing packages, e.g.
+That's it. (You may need to specify a real compiler if using OCaml-based tools
+like `ogene`) Now you can start installing packages, e.g.
 
 ```
 opam install bwa samtools picard
